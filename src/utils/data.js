@@ -169,11 +169,11 @@ export const ABOUT_ME = {
         { id: "01", label: "Kaggle", icon: SiKaggle, link: "https://www.kaggle.com/jatinpidugu" },
         { id: "02", label: "Github", icon: FaSquareGithub, link: "https://github.com/Jatinpidugu"},
         { id: "03", label: "Credly", icon: SiCredly, link: "https://www.credly.com/users/jatin-pidugu" }, 
-        { id: "04", label: "Linkedln", icon: FaLinkedin, link: "jatin-pidugu" }, 
+        { id: "04", label: "Linkedln", icon: FaLinkedin, link: "https://www.linkedin.com/in/jatin-pidugu-857b82218" }, 
     ],
     email: "jatinpidugu@gmail.com", 
     phone: "+91 7988989479", 
-    LinkedIn: "https://www.linkedin.com/in/jatin-pidugu-857b82218", 
+    LinkedIn: "jatin pidugu", 
 };
 
 export const PROJECTS = [
