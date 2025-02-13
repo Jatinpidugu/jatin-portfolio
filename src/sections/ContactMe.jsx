@@ -8,6 +8,7 @@ import axios from 'axios';
 
 
 const ContactMe = () => {
+  
 
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
@@ -45,7 +46,7 @@ const ContactMe = () => {
           </p>
         </div>
         <div className="p-20">
-      <div className="grid grid-cols-1 md:grid-cols-2 md:gap-16">
+      <div className="grid grid-cols-1 md:grid-cols-2 md:gap-16 max-w-full overflow-hidden">
         <div>
           <ContactInfoCard icon={<IoMdMail />} text={ABOUT_ME.email} />
           <ContactInfoCard icon={<IoPhonePortraitOutline />} text={ABOUT_ME.phone} />

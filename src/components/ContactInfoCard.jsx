@@ -6,7 +6,7 @@ const ContactInfoCard = ({icon, text}) => {
         <div className="w-5 h-5 text-xl text-black flex items-center bg-[#d8efe19a]">
             {icon}
         </div>
-        <p className="text-secondary text-xs md:text-sm">{text}</p>
+        <p className="text-secondary text-xs sm:text-sm md:text-base">{text}</p>
     </div>
   )
 }

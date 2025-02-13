@@ -173,7 +173,7 @@ export const ABOUT_ME = {
     ],
     email: "jatinpidugu@gmail.com", 
     phone: "+91 7988989479", 
-    LinkedIn: "https://www.linkedin.com/in/jatin-pidugu-857b82218", 
+    LinkedIn: "jatin pidugu", 
 };
 
 export const PROJECTS = [
