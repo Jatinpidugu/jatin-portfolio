@@ -59,7 +59,7 @@ export const SKILLS = [
     {    
         id: "02", 
         icon: GiArtificialIntelligence, 
-        skil: "SuperVised Leaning", 
+        skil: "Supervised Learning", 
         progress: 80, 
         type: "data_science", 
         description: "Experience on datasets using Linear Regression, KNN, Ridge & Lassp Regression, SVR, Decsion Tree Regression and Random forest"
@@ -67,7 +67,7 @@ export const SKILLS = [
     {  
         id: "03", 
         icon: FaRobot, 
-        skil: "Un-SuperVised Leaning", 
+        skil: "Un-Supervised Learning", 
         progress: 70, 
         type: "data_science", 
         description: "Experience on datasets using Classification Models"
@@ -75,7 +75,7 @@ export const SKILLS = [
     {  
         id: "04", 
         icon: GiRobotGolem, 
-        skil: "Deep leanring NLTP", 
+        skil: "Deep learning NLTP", 
         progress: 60, 
         type: "data_science", 
         description: "Created in Computer Vision projects using CNN, Mediapipe"
