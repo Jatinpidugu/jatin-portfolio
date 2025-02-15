@@ -88,7 +88,7 @@ const Navbar = () => {
                             smooth
                             spy 
                             offset={item.offset}
-                            className="menu-item text-xl"
+                            className="menu-item text-l"
                             >
                                 {item.label}
                             </Link>

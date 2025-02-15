@@ -24,12 +24,28 @@ import PROJECT_IMG_4 from "../assets/images/project_4.png";
 import PROJECT_IMG_5 from "../assets/images/project_5.png"; 
 import PROJECT_IMG_6 from "../assets/images/project_6.png"; 
 
+
+import CERTFICATE_1 from "../assets/CERTIFICATE/CERT_1.jpg";
+import CERTFICATE_2 from "../assets/CERTIFICATE/CERT_2.png";
+import CERTFICATE_3 from "../assets/CERTIFICATE/CERT_3.png";
+import CERTFICATE_4 from "../assets/CERTIFICATE/CERT_4.png";
+import CERTFICATE_5 from "../assets/CERTIFICATE/CERT_5.png";
+import CERTFICATE_6 from "../assets/CERTIFICATE/CERT_6.png";
+import CERTFICATE_7 from "../assets/CERTIFICATE/CERT_7.png";
+import CERTFICATE_8 from "../assets/CERTIFICATE/CERT_8.png";
+import CERTFICATE_9 from "../assets/CERTIFICATE/CERT_9.png";
+import CERTFICATE_10 from "../assets/CERTIFICATE/CERT_10.png";
+
+
+
+
 export const MENU_LINKS = [
         { id: "01", label: "Home", offset: -100, to: "hero" }, 
         { id: "02", label: "Skills", offset: -80, to: "skills"}, 
         { id: "03", label: "About Me", offset: -80, to: "about" }, 
-        { id: "04", label: "Projects", offset: -80, to: "projects"}, 
-        { id: "05", label: "Contact", offset: -80, to: "contact"}, 
+        { id: "04", label: "Projects", offset: -80, to: "projects"},
+        { id: "05", label: "Contact", offset: -80, to: "contact"},
+        { id: "06", label: "Certificates", offset: -80, to: "certificate"},
     ]; 
     
 export const STATS = [
@@ -212,5 +228,68 @@ export const PROJECTS = [
         title: "Voting Site Frontend",
         image: PROJECT_IMG_6,
         tag: ["HTML", "CSS", "Flask", "Python", "SQL","EXCEL"]
+    },
+];
+
+export const MY_CERTIFICATES = [
+    {
+        id: 1,
+        title: "PANTECH SOLUTION 30 Days Intership on AI",
+        image: CERTFICATE_1,
+        tag: ["AI", "CNN", "TKINTER","PYTHON","DEEP LEARNING"]
+    },
+    {
+        id: 2,
+        title: "YBI Foundation: REGULARIZATION and Feature Selection",
+        image: CERTFICATE_2,
+        tag: ["RIGID", "LASSO", "Standardization","DATA"]
+    },
+    {
+        id: 3,
+        title: "YBI Foundation: Fundamentals of AI and Data Skills",
+        image: CERTFICATE_3,
+        tag: ["DATA Cleaning","Python","Preprocessing","Visulization"]
+    },
+    {
+        id: 4,
+        title: "YBI Foundation: Fundamentals of Classification Modelling",
+        image: CERTFICATE_4,
+        tag: ["Python","Numpy", "Pandas", "Jupiter_notebook"]
+    },
+    {
+        id: 5,
+        title: "YBI Foundation: Fundamentals of Unsupervised Learning",
+        image: CERTFICATE_5,
+        tag: ["Unsupervised Learning"]
+    },
+    {
+        id: 6,
+        title: "NIIT Foundation: Digital Producitvity",
+        image: CERTFICATE_6,
+        tag: ["Digital Productivity", "Digital WellBeing", "Digital Work Balance"]
+    },
+    {
+        id: 7,
+        title: "CISCO Networking Academy: Introduction to IOT",
+        image: CERTFICATE_7,
+        tag: ["IOT", "Ardino UNO", "Electronics","IDE","IOT-LEVELS","C++"]
+    },
+    {
+        id: 8,
+        title: "Kodacy: Robotics Basics Theory",
+        image: CERTFICATE_8,
+        tag: ["MOTORS", "Sensors and Actuators", "ROS","HMI","Neuro Schematics"]
+    },
+    {
+        id: 9,
+        title: "Coursera: Google Bussiness Intelligence",
+        image: CERTFICATE_9,
+        tag: ["Context Understanding", "Data Privacy", "Data Biasing","Data Story","Data Value","PowerBI"]
+    },
+    {
+        id: 10,
+        title: "Coursera: Google Data Analytics",
+        image: CERTFICATE_10,
+        tag: ["Data Collection", "Data Preprocessing", "Data Cleaning","Data Manipulation","Data Visualization","Data Model Selection","Data Analysis", "Data Reporting"]
     },
 ];
