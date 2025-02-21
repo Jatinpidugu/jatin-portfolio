@@ -15,7 +15,7 @@ const Hero = () => {
   };
 
   const goToresume = () => {
-    window.location.href = "https://drive.google.com/file/d/1GRXoCWay3g5Ec0LJRwup2m00I0vyhwW7/view?usp=sharing";
+    window.location.href = "https://drive.google.com/file/d/1l3vOU7rebaSYg589eb8YJe9v4ufZsFTr/view?usp=sharing";
   };
 
   return (
